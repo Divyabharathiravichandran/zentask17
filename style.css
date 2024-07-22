@@ -1,0 +1,57 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    font-family: Poppins;
+    padding-bottom: 5%;
+}
+  
+  .card {
+    background-image: linear-gradient(
+      to right,
+      rgb(162, 255, 253),
+      rgb(255, 195, 195)
+    );
+    margin: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 0.5rem;
+    
+    
+  }
+  .card-header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+
+  }
+  .card-body {
+    font-size:15px;
+    text-align: center;
+    justify-content: center;
+  }
+  .card-img {
+    padding: 15px;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .card-img {
+      max-height: 170px;
+      min-height: 169px;
+    }
+  }
+  .boxLoading {
+    color: white;
+    text-align: center;
+    justify-content: center;
+  }
+  .collapse {
+    border-style: dashed;
+  }
+  .row {
+    padding: 5%;
+  }
+  .h2 {
+    text-align: center;
+    margin-top: 25px;
+  }
